@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Cormorant+Garamond:wght@300;400;600&family=Montserrat:wght@300;400;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ── Reset ──────────────────────────────────────── */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #fff5f8;
+  font-family: 'Montserrat', sans-serif;
+  color: #4c1d95;
+}
+
+/* ── Scrollbar ───────────────────────────────────── */
+::-webkit-scrollbar         { width: 6px; }
+::-webkit-scrollbar-track   { background: #fff5f8; }
+::-webkit-scrollbar-thumb   {
+  background: linear-gradient(#f472b6, #e879f9);
+  border-radius: 3px;
+}
+
+/* ── Select option dark bg ───────────────────────── */
+select option { background: #1e0730; color: #f1f5f9; }
+input::placeholder { color: rgba(109,40,217,0.4); }
+
+/* ── Animations ──────────────────────────────────── */
+@keyframes floatUp {
+  0%   { transform: translateY(0) scale(1);   opacity: 0.6; }
+  50%  { opacity: 0.8; }
+  100% { transform: translateY(-110vh) scale(0.4); opacity: 0; }
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(40px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes shimmer {
+  0%   { background-position: -200% center; }
+  100% { background-position:  200% center; }
+}
+
+@keyframes petalFall {
+  0%   { transform: translateY(-40px) rotate(0deg) scale(1);   opacity: 0; }
+  10%  { opacity: 1; }
+  80%  { opacity: 0.8; }
+  100% { transform: translateY(110vh) rotate(540deg) scale(0.6); opacity: 0; }
+}
+
+@keyframes pulse-glow {
+  0%, 100% { box-shadow: 0 8px 24px rgba(244,114,182,0.5); }
+  50%       { box-shadow: 0 8px 40px rgba(244,114,182,0.9); }
+}
+
+/* ── Utility classes ─────────────────────────────── */
+.animate-fade-in-up  { animation: fadeInUp 1.2s ease forwards; }
+.animate-shimmer     { animation: shimmer 4s linear infinite; }
+.animate-pulse-glow  { animation: pulse-glow 2s infinite; }
+.animate-float-up    { animation: floatUp linear infinite; }
+
+.font-playfair    { font-family: 'Playfair Display', serif; }
+.font-cormorant   { font-family: 'Cormorant Garamond', serif; }
+.font-montserrat  { font-family: 'Montserrat', sans-serif; }
+
+/* ── Gradient text helper ────────────────────────── */
+.gradient-text-pink {
+  background: linear-gradient(135deg, #8e8e93 0%, #d4d5d9 25%, #ffffff 50%, #c0c0c0 75%, #8e8e93 100%);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: shimmer 3s linear infinite;
+}
+
+.gradient-text-15 {
+  background: linear-gradient(135deg, #f9a8d4 0%, #ffffff 40%, #e879f9 70%, #c084fc 100%);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
