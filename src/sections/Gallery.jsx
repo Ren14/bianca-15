@@ -9,10 +9,10 @@ import foto5 from '../assets/photos/foto5.png'
 import foto6 from '../assets/photos/foto6.png'
 
 const PHOTOS = [
-  { id: 1, src: foto1, alt: 'Foto de Bianca 1' },
-  { id: 2, src: foto2, alt: 'Foto de Bianca 2' },
-  { id: 3, src: foto3, alt: 'Foto de Bianca 3' },
-  { id: 4, src: foto4, alt: 'Foto de Bianca 4' },
+  { id: 1, src: foto1, alt: 'Foto de Delfi 1' },
+  { id: 2, src: foto2, alt: 'Foto de Delfi 2' },
+  { id: 3, src: foto3, alt: 'Foto de Delfi 3' },
+  { id: 4, src: foto4, alt: 'Foto de Delfi 4' },
   { id: 5, src: foto5, alt: 'Foto de Bianca 5' },
   { id: 6, src: foto6, alt: 'Foto de Bianca 6' },
 ]

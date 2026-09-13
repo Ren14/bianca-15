@@ -6,7 +6,7 @@ import iconoMP from '../assets/photos/icono_mp.png'
 const GIFT_INFO = [
   { label: 'Banco',   value: 'Banco Galicia' },
   { label: 'CBU',     value: '0000000000000000000000' },
-  { label: 'Alias',   value: 'bianca.regalo' },
+  { label: 'Alias',   value: 'delfi.2511.mp' },
   { label: 'Titular', value: 'Bianca Nacif' },
 ]
 // ───────────────────────────────────────────────────
@@ -74,7 +74,7 @@ export default function GiftInfo() {
               letterSpacing: '0.12em',
             }}
           >
-            biancanacif23
+            delfi.2511.mp
           </span>
 
           {copied && (

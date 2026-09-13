@@ -46,13 +46,13 @@ export default function Hero() {
             backgroundClip: 'text',
           }}
         >
-          Bianca Nacif
+          Delfi
         </h1>
 
         {/* Event name */}
         <p className="font-cormorant text-violet-700 uppercase tracking-widest mb-12"
            style={{ fontSize: 'clamp(14px, 3vw, 20px)' }}>
-          ✦ Tirada de Bianca ✦
+          ✦ Mis 15 Años ✦
         </p>
 
         {/* CTA */}

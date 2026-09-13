@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { SectionTitle } from '../components/UI'
 
-const WA_NUMBER = '5492616299786' // Reemplazá con el número real (sin + ni espacios)
+const WA_NUMBER = '5492613474123' // Reemplazá con el número real (sin + ni espacios)
 
 const inputClass = `
   w-full px-5 py-4 rounded-xl text-violet-900 outline-none text-base font-montserrat
@@ -23,8 +23,8 @@ export default function RSVP() {
     if (!name.trim()) { alert('Por favor, ingresá tu nombre.'); return }
 
     const message = attend === 'si'
-      ? `Hola! Soy ${name.trim()}. Confirmo asistencia para ${guests} ${guests === '1' ? 'persona' : 'personas'} a la Tirada de Bianca 🌸`
-      : `Hola! Soy ${name.trim()}. Lamentablemente no voy a poder asistir a la Tirada de Bianca 😢`
+      ? `Hola! Soy ${name.trim()}. Confirmo asistencia para ${guests} ${guests === '1' ? 'persona' : 'personas'} a los 15 de Delfi 🌸`
+      : `Hola! Soy ${name.trim()}. Lamentablemente no voy a poder asistir 😢`
 
     window.open(`https://wa.me/${WA_NUMBER}?text=${encodeURIComponent(message)}`, '_blank')
 
@@ -54,7 +54,7 @@ export default function RSVP() {
     >
       <SectionTitle>¿Vas a venir?</SectionTitle>
       <p className="text-violet-600 text-sm mb-10">
-        Confirmá tu asistencia antes del 10 de Abril
+        Confirmá tu asistencia antes del 20 de Septiembre
       </p>
 
       <div className="max-w-sm mx-auto flex flex-col gap-4">
@@ -63,7 +63,7 @@ export default function RSVP() {
           className={inputClass}
           style={inputStyle}
           type="text"
-          placeholder="Bianca"
+          placeholder="Delfi"
           value={name}
           onChange={(e) => setName(e.target.value)}
         />

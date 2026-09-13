@@ -99,7 +99,7 @@ function Splash({ onEnter }) {
             WebkitTextFillColor: 'transparent',
           }}
         >
-          Bianca
+          Delfi
         </h1>
         <p className="text-violet-700 font-montserrat text-sm tracking-widest">
           sus 15 años 🌸

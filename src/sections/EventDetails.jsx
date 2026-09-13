@@ -1,13 +1,13 @@
 import { SectionTitle, InfoCard } from '../components/UI'
 
 const EVENT_DETAILS = [
-  { icon: '📅', title: 'Fecha',      value: 'Domingo 19 de Abril, 2026' },
-  { icon: '🕘', title: 'Hora',       value: '21:30 hs' },
-  { icon: '📍', title: 'Lugar',      value: 'La Tranquera 1 Eventos' },
-  { icon: '🤵', title: 'Dress Code', value: 'Elegante Sport con un toque de brillo' },
+  { icon: '📅', title: 'Fecha',      value: '10 de Octubre, 2026' },
+  { icon: '🕘', title: 'Hora',       value: '21:00 hs' },
+  { icon: '📍', title: 'Lugar',      value: 'Quinta Aires del Sauzal' },
+  { icon: '🤵', title: 'Dress Code', value: 'Elegante Sport' },
 ]
 
-const MAPS_URL = 'https://maps.app.goo.gl/zyyHeu7sXkpXYtNS8'
+const MAPS_URL = 'https://maps.app.goo.gl/JPjz7fyjimPH7ZCK7'
 
 export default function EventDetails() {
   return (

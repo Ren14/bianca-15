@@ -29,14 +29,10 @@ export default function Message() {
             letterSpacing: '0.03em',
           }}
         >
-          Un momento especial<br />
-          se vive mejor cuando<br />
-          se comparte.<br />
-          Por eso, te espero<br />
-          para celebrar juntos<br />
-          una noche única que<br />
-          quedará por siempre<br />
-          en mi corazón.
+          Cada estrella tiene su momento para brillar.<br />
+          Esta noche es el mío, <br />
+          y quiero compartirla con quienes me acompañan <br /> 
+          día a día.<br />
         </p>
 
         {/* Decorative closing quote */}

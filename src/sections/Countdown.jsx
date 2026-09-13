@@ -9,7 +9,7 @@ const UNITS = [
 ]
 
 export default function Countdown() {
-  const time = useCountdown('2026-04-19T21:30:00-03:00')
+  const time = useCountdown('2026-10-10T20:00:00-03:00')
 
   return (
     <section
@@ -19,7 +19,7 @@ export default function Countdown() {
     >
       <SectionTitle>Cuenta Regresiva</SectionTitle>
       <p className="text-violet-600 text-sm tracking-widest mb-12 uppercase">
-        19 · Abril · 2026
+        10 · Octubre · 2026
       </p>
 
       <div className="flex flex-wrap gap-4 justify-center">
